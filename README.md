@@ -1,4 +1,4 @@
 # School second-hand product system
 
 
-## introduction will comming soon
+## introduction will coming soon
