@@ -273,7 +273,7 @@ h3.break>a {
 		})
 	});
 	</script>
-<%@ include file="WEB-INF/jsp/common/top.jsp"%>
+<%@ include file="WEB-INF/jsp/common/top1.jsp"%>
 <%@ include file="WEB-INF/jsp/common/head.jsp"%>
 </head>
 <body>

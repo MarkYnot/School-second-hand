@@ -11,6 +11,7 @@ import com.mongodb.client.MongoCollection;
 import com.mongodb.client.MongoDatabase;
 import com.mongodb.client.model.Filters;
 
+import cn.second_hand.category.domain.Category;
 import cn.second_hand.user.domain.User;
 import cn.second_hand.user.utils.MongoDBUtils;
 
@@ -55,10 +56,7 @@ public class UserDao {
 		 collection.updateOne(Filters.eq("passwordResetCode", code), new Document("$set",new Document("password",password).append("passwordResetCode", null)));
 	}
 	
-	public void updateBalance(String userEmail, Double bal) {
-		 collection.updateOne(Filters.eq("email", userEmail), new Document("$set",new Document("balance",bal)));
-	}
-	
+
 	public List<User> findAll() {
 		FindIterable<Document> findIterable = collection.find();
 		List<User> list = new ArrayList<User>();
@@ -75,5 +73,12 @@ public class UserDao {
 		return list;
 		
 	}
+	public void updateBalance(String userEmail, Double bal) {
+		 collection.updateOne(Filters.eq("email", userEmail), new Document("$set",new Document("balance",bal))); 
+	}
 	
-}
+	
+		
+		}
+	
+

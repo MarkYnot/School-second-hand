@@ -1,0 +1,30 @@
+[
+  {
+      "_id": {
+          "$oid": "5f8be5401cbd9767b449923a"
+      },
+      "categoriesName": "Fashion",
+      "description": " clothing, shoes, accessories"
+  },
+  {
+      "_id": {
+          "$oid": "5f8bfaa8b395f15f65594228"
+      },
+      "categoriesName": "Eletronics",
+      "description": " mobile phone, lab-top"
+  },
+  {
+      "_id": {
+          "$oid": "5f8bfaf4b395f15f65594229"
+      },
+      "categoriesName": "SportingGoods",
+      "description": "balls, sport clothing, sport accessories "
+  },
+  {
+      "_id": {
+          "$oid": "5f8bfb46b395f15f6559422a"
+      },
+      "categoriesName": "Home&Garden",
+      "description": "shovel, chemical fertiliser,  flowers"
+  }
+]

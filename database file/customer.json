@@ -1,0 +1,95 @@
+[
+  {
+    "_id": {
+        "$oid": "5f55cb371923a45f9575e55e"
+    },
+    "email": "574811625@qq.com",
+    "password": "a123456",
+    "verifyCode": "E73B353995B74DE4AE0E5F7E5F064BBB",
+    "activeStatus": true,
+    "passwordResetCode": null,
+    "balance": 200
+},
+{
+    "_id": {
+        "$oid": "5f55d0721923a45f9575e560"
+    },
+    "email": "marincc1113@gmail.com",
+    "password": "123456",
+    "verifyCode": "77E5AF7CF4A7430986578D71C8202730",
+    "activeStatus": true
+}, 
+{
+    "_id": {
+        "$oid": "5f7058a500fefb44f01cd7a2"
+    },
+    "email": "406507191@qq.com",
+    "password": "123456",
+    "verifyCode": "A6444CF7E99D4AAFBEE43B2CEC4EF98E",
+    "activeStatus": true,
+    "saleApplyStatus": false
+},
+{
+    "_id": {
+        "$oid": "5f72df5304d1c7137df925b7"
+    },
+    "email": "727221029@qq.com",
+    "password": "123456",
+    "verifyCode": "F5273AE1EF20474496DA4A73501780AD",
+    "activeStatus": false,
+    "saleApplyStatus": false
+},
+{
+    "_id": {
+        "$oid": "5f824dc69a4327582fe106db"
+    },
+    "email": "marin1113@163.com",
+    "password": "a123456",
+    "verifyCode": "D12778E0B6C8412D85146544AC717853",
+    "activeStatus": true,
+    "saleApplyStatus": false,
+    "passwordResetCode": null,
+    "balance": 2000
+},
+{
+    "_id": {
+        "$oid": "5f92b399d6ad26292f7c4ddc"
+    },
+    "email": "14714912758@163.com",
+    "password": "123456",
+    "verifyCode": "19C578645EB94B26BBFC61C5682C95DA",
+    "activeStatus": true,
+    "saleApplyStatus": false,
+    "balance": 40222.4
+},
+{
+    "_id": {
+        "$oid": "5f961ffec87d0767591af7e5"
+    },
+    "email": "2993041595@qq.com",
+    "password": "123456",
+    "verifyCode": "848F8A9088044BBBB1B11005F5C9C45D",
+    "activeStatus": false,
+    "saleApplyStatus": false
+},
+{
+    "_id": {
+        "$oid": "5f9e034b30348546b914b497"
+    },
+    "email": "mark727221029@gmail.com",
+    "password": "123456",
+    "verifyCode": "DE4C8F2754BC47B3BE765B1A55BB32F9",
+    "activeStatus": true,
+    "saleApplyStatus": false
+},
+{
+    "_id": {
+        "$oid": "5f9e61a86f87ee0404845597"
+    },
+    "email": "123@gmail.com",
+    "password": "123456",
+    "verifyCode": "123",
+    "activeStatus": false,
+    "saleApplyStatus": false
+}
+]

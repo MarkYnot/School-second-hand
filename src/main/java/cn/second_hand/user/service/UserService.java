@@ -69,6 +69,11 @@ public class UserService {
 		dao.resetPassword(code,password);
 	}
 
+
+	
+	
+	
+
 	public void topupBalance(User currentUser) {
 		dao.updateBalance(currentUser.getEmail(), currentUser.getBalance());
 	}
@@ -77,6 +82,7 @@ public class UserService {
 		
 		return dao.findAll();	
 		}
+
 
 
 }

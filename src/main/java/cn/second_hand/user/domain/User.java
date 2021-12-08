@@ -16,11 +16,16 @@ public class User {
 	private double balance;
 	private boolean activeStatus;
 	
+	
+	
+	
+
 	public double getBalance() {
 		return balance;
 	}
 	public void setBalance(double balance) {
 		this.balance = balance;
+
 	}
 	public boolean isActiveStatus() {
 		return activeStatus;
@@ -50,8 +55,8 @@ public class User {
 	@Override
 	public String toString() {
 		return "User [email=" + email + ", password=" + password + ", verifyCode=" + verifyCode + ", activeStatus="
-				+ activeStatus + ", saleApplyStatus="  + "]";
+				+ activeStatus + ", oid=" + oid + "]";
 	}
-	
+		
 	
 }
